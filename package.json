@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "aws-amplify": "^6.10.2",
         "bootstrap": "^5.2.3",
         "emailjs-com": "^3.2.0",
         "react": "^18.2.0",
@@ -41,5 +42,15 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@aws-amplify/backend": "^1.8.0",
+        "@aws-amplify/backend-cli": "^1.4.2",
+        "aws-cdk": "^2",
+        "aws-cdk-lib": "^2",
+        "constructs": "^10.0.0",
+        "esbuild": "^0.24.0",
+        "tsx": "^4.19.2",
+        "typescript": "^5.0.0"
     }
 }
