@@ -1,74 +1,74 @@
-const logotext = "JOHN";
+const logotext = "home";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Jonathan Fernandez - AWS Evangelist",
+    description: "I’m Jonathan Fernandez - Technologist Extraordinare - a Malaysian living the American Dream in Portland, OR",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Jonathan Fernandez",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love solving problems",
+        second: "I geek out on automation",
+        third: "I get a kick ouf of emerging tech",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "A cloud enthusiast, tech whisperer, and your go-to guy for making impossible projects look effortless. When I’m not wrangling AWS services or having fun building cool things, I’m either jamming on my guitar, diving into historical rabbit holes, or perfecting the art of sarcastic wit.",
+    your_img_url: "https://soundbytez.s3.us-east-2.amazonaws.com/IMG_9461+2.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "who even is this guy?",
+    aboutme: "I bring order to cloud chaos, making tech work smarter, not harder. Clouds may float aimlessly in the sky, but not on my watch. Whether it’s scaling workloads, crafting SoWs that could win a Pulitzer (if they gave awards for that), or brainstorming outside-the-box solutions, I do it all with a mix of strategy, precision, and a good sense of humor.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Technical Account Manager",
+        where: "AWS",
+        date: "2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Solutions Architect",
+        where: "Cloud303 - An AWS Premier Partner",
+        date: "2022-2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Media Mogul",
+        where: "Mainstream Media",
+        date: "2005-2022",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Everything AWS",
+        value: 100,
     },
     {
-        name: "Djano",
+        name: "GenAI - Bedrock & Sagemaker",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Containers, Serverless, CICD",
+        value: 100,
+    },
+    {
+        name: "Security & Networking",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        name: "Customer Obsession (tbh, I'm just a yappin' people pleaser)",
+        value: 100,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Cloud Architecture & Strategy",
+        description: "Designing scalable, secure, and cost-effective cloud infrastructures tailored to your business needs. Whether it’s migrating workloads or modernizing legacy systems, I’ve got you covered.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "AWS Professional Services",
+        description: "Delivering bespoke solutions for enterprise clients, including Well-Architected Reviews, cost optimization, and seamless workload migrations using AWS best practices.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Automation with Scripting & Infrastructure as Code",
+        description: "Streamlining your operations with automation tools and Infrastructure as Code (IaC) like Terraform and CloudFormation, ensuring efficient deployments and reduced human error.",
     },
 ];
 
@@ -136,9 +136,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "jonathan.m.fernandez@gmail.com",
+    YOUR_FONE: "(904)-616-5383",
+    description: "Let’s connect! Whether you have a project idea, a collaboration opportunity, or just want to chat about tech, feel free to drop a message. I’m always open to exploring new possibilities and making great things happen. Reach out—I’d love to hear from you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -149,7 +149,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://linkedin.com/in/jonfernz",
     twitter: "https://twitter.com",
 };
 export {
